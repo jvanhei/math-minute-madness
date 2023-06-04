@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Math Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Math Game</h1>
+    <div id="score-container">
+        <h2>Score: <span id="score">0</span></h2>
+        <h2>High Score: <span id="high-score">0</span></h2>
+    </div>
+    <div id="result-container">
+        <h2 id="result"></h2>
+    </div>
+    <div id="timer-container">
+        <h2>Time Remaining: <span id="timer"></span></h2>
+    </div>
+    <div id="question-container">
+        <h2 id="question"></h2>
+        <ul id="choices">
+            <li><button onclick="checkAnswer(0)"></button></li>
+            <li><button onclick="checkAnswer(1)"></button></li>
+            <li><button onclick="checkAnswer(2)"></button></li>
+        </ul>
+    </div>
+    <button id="start-button">Start the Math Minute Madness</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
